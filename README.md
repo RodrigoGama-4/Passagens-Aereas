@@ -17,3 +17,13 @@ Onde x vai ser passageiro ou tickets.
 #delete de passageiro: localhost:8080/companhia/passageiro/id
 
 #put de passageiro: localhost:8080/companhia/passageiro/id com body json com nome(string) e nacionalidade.
+
+### Tickets
+
+#get de tickets: localhost:8080/companhia/tickets
+
+#post de tickets: localhost:8080/companhia/tickets com body json com destino(String), dataVoo(String) e idPassageiro(Passageiro)
+
+#delete de tickets: localhost:8080/companhia/tickets/id
+
+#put de tickets: localhost:8080/companhia/tickets/id com body json com destino(String), dataVoo(String) e idPassageiro(Passageiro)
