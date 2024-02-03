@@ -8,9 +8,12 @@ Utilize localhost:8080/companhia/x
 
 Onde x vai ser passageiro ou tickets.
 
-## Passageiro
+### Passageiro
 
 #get de passageiro: localhost:8080/companhia/passageiro
+
 #post de passageiro: localhost:8080/companhia/passageiro com body json com nome(string) e nacionalidade.
+
 #delete de passageiro: localhost:8080/companhia/passageiro/id
+
 #put de passageiro: localhost:8080/companhia/passageiro/id com body json com nome(string) e nacionalidade.
